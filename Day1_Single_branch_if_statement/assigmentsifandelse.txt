@@ -1,0 +1,23 @@
+if......else
+
+1.	Write a program to find maximum between three numbers.
+2.	Write a   program to check whether a number is negative, positive or zero.
+3.	Write a   program to check whether a number is divisible by 5 and 11 or not.
+4.	Write a   program to check whether a year is leap year or not.
+5.	Write a   program to input any alphabet and check whether it is vowel or consonant
+6.	Write a   program to input angles of a triangle and check whether triangle is valid or not.
+7.	Write a   program to calculate profit or loss.
+8.	Write a  program to input marks of five subjects Physics, Chemistry, Biology, Mathematics and Computer. Calculate percentage and grade according to following:
+Percentage >= 90% : Grade A
+Percentage >= 80% : Grade B
+Percentage >= 70% : Grade C
+Percentage >= 60% : Grade D
+Percentage >= 40% : Grade E
+Percentage < 40% : Grade F
+8.	Write a program to input basic salary of an employee and calculate its Gross salary according to following:
+Basic Salary <= 10000 : HRA = 20%, DA = 80%
+Basic Salary <= 20000 : HRA = 25%, DA = 90%
+Basic Salary > 20000 : HRA = 30%, DA = 95%
+
+
+
