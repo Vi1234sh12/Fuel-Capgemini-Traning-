@@ -1,0 +1,95 @@
+synatx 
+
+
+Datatype[][] nameofarray = new datatype[rsize][csize]
+
+int[][] arr = new int[3][3];
+--------------------------------------------------
+
+int[][] ----> datatype[][]
+arr -----> arrayname 
+new  ------> allocate memory 
+datatype - ---> datatype[rsize][csize]
+
+
+------------------------------------ 
+    0    1     2 
+0 [0,0][0,1][0,2]
+1 [1,0][1,1][1,2]
+2 [2,0][2,1][2,2]
+
+--------------------------------
+nameindex[rindex][cindex]
+arr[1][2]
+
+-------------------------------------
+syntax declera 2d Array : 
+
+example 
+
+take input from user 
+
+
+
+------------------------------
+
+import java.util.*;
+
+class DemoAray{
+public static void main(String args[])
+{
+
+int[][] arr = new int[3][3]; //  3*3 row *col
+
+Scanner sc = new Scanner(System.in);
+int i,j ; // row index , colum index 
+
+always remeber when you use 2d Array use i, j  for row , col 
+for(i = 0 ;i<3;i++) // row index
+{
+for(j = 0 ;j<3;i++) // col index 
+{
+
+
+arr[i][j] = sc.nextInt();
+
+}
+}
+
+for(i = 0 ;i<3;i++) // row index
+{
+for(j = 0 ;j<3;i++) // col index 
+{
+
+
+System.out.print(arr[i][j]);
+
+}
+}
+
+
+}
+}
+-----------------------------------------------------------------------------------------
+how take 2d Array  ?
+
+class DemoArray {
+public static void main(String args[])
+{
+
+int    w
+
+
+
+
+
+
+
+
+
+
+}
+}
+
+
+

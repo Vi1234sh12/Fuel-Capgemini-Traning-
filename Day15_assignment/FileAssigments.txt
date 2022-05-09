@@ -1,0 +1,17 @@
+
+1. WAP to copy the content of one file to another 
+	by using CHAR IO classes.
+
+2. WAP to ask user to input folder path and count
+	how many file and folders present in that
+	folder
+
+3. WAP program to copy one image file into another
+	(.jpg or png file) using byte io
+
+
+
+Difference Between length and length()
+Now you may have noticed that I have used the length  variable instead of the length() method in the above code, the reason is that the length variable comes under the array class, and it returns the size of the array on the other hand length() method is under the String class and it is used to find the  number of characters in the string.
+
+But as we are using a string array in our tutorial that is why we have used the length variable and not length() method.
