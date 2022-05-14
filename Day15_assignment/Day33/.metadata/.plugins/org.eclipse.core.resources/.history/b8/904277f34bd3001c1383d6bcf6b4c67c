@@ -1,0 +1,24 @@
+package com.example.OnetoOneDemo;
+
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.JoinColumn;
+import javax.persistence.OneToOne;
+import javax.persistence.Table;
+
+@Entity
+@Table(name = "emp")
+public class Emp {
+	
+	@Id
+	private int emp_id;
+	@Column
+	private String name;
+	
+	@OneToOne
+	@JoinColumn(name = "roll_id")
+	private Role rollobj;
+	
+
+}
