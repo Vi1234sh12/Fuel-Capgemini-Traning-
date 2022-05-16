@@ -1,0 +1,13 @@
+package com.example.ApplicationMangerJpaDemo;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class ApplicationMangerJpaDemoApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(ApplicationMangerJpaDemoApplication.class, args);
+	}
+
+}
