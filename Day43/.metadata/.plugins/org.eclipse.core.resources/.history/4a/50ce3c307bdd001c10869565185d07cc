@@ -1,0 +1,12 @@
+<html>
+<head>
+</head>
+<body>
+<form method="post" action="/check">
+ <input type = "text" placeholder="Enter username " name="user" >
+ <br>
+ <br>
+ <input type ="submit" value ="Submit" > 
+</form>
+</body>
+</html>

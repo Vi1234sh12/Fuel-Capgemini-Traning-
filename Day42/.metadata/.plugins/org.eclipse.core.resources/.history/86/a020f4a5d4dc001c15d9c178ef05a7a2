@@ -1,0 +1,19 @@
+<html>
+<head>
+Create New User Signup Page !
+</head>
+<body>
+<h1>Register New User </h1>
+<form method="post" action="/save">
+ <input type = "text" placeholder="Enter first  name " name="firstname" >
+ <br>
+ <input type = "text" placeholder="Enter last Name " name="lastname" >
+ <br>
+ <input type = "text" placeholder="Email id " name="email" >
+ <br>
+ <input type = "password" placeholder="Password " name="pass" >
+ <br>
+ <input type ="submit" value ="Create" > 
+</form>
+</body>
+<html>

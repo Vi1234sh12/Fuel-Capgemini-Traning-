@@ -1,0 +1,43 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>login Page</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+header {
+ c
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+input {
+
+  header {
+  background-color: #666;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+}
+</style>
+</head>
+<body >
+<header> Login Page </header>
+<br>
+<form method="post" action="/check">
+ <input type = "text" placeholder="Enter Email Id " name="email" >
+ <br>
+ <input type = "password" placeholder="Enter Password " name="pass" >
+ <br>
+ <input type ="submit" value ="Login" > 
+</form>
+<a href="/createuser"> Create New User </a>
+
+</body>
+</html>

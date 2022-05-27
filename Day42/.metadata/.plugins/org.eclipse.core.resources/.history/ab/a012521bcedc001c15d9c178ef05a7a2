@@ -1,0 +1,15 @@
+
+<html >
+<head>
+<h1> Login Page </h1> 
+</head>
+<body>
+
+<form method="post" action="/check">
+</form>
+ 
+<h1>WELCOME</h1>
+
+
+</body>
+</html>

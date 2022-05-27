@@ -1,0 +1,11 @@
+<html>
+<head>
+</head>
+<body>
+<form method="get" action="/register">
+ <input type = "text" placeholder="Enter username " name="firstname" >
+ <br>
+ <input type ="submit" value ="Submit" > 
+</form>
+</body>
+</html>

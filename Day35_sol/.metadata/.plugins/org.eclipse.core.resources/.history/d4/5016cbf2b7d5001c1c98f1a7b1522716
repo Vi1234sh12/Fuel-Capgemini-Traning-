@@ -1,0 +1,22 @@
+package com.example.webdemo;
+
+import org.springframework.stereotype.Component;
+
+@Component
+public class StudentDetails {
+	
+	private Student stud;
+	
+	void setData() {
+	
+		
+		
+	}
+	
+	void showData()
+	{
+		System.out.println();
+		System.out.println();
+	}
+
+}

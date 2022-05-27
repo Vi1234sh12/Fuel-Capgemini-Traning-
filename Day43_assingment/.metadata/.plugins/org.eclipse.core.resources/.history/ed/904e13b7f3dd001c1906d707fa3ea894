@@ -1,0 +1,17 @@
+<html>
+<head>
+<style>
+p {
+   
+   font-size : 50px;
+   padding : 20px:
+    
+}
+</style>
+</head>
+<body>
+<h1> Welcome to Movie Page </h1>
+<br>
+ <p th:text="'UserName: ' + ${fname}" />
+</body>
+</html>

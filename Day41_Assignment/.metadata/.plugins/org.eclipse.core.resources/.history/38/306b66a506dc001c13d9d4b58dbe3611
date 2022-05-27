@@ -1,0 +1,17 @@
+
+<html >
+<head>
+<h1> Login Page </h1> 
+</head>
+<body>
+<form method="post" action="/loginuser">
+ <input type = "text" placeholder="Enter Name " name="email" >
+ <br>
+ <input type = "password" placeholder="Default Password " name="pass" >
+ <br>
+ <input type ="submit" value ="Login" > 
+</form>
+
+
+</body>
+</html>

@@ -1,0 +1,17 @@
+
+<html >
+<head>
+Login Page 
+</head>
+<body>
+<form method="post" action="/loginuser">
+ <input type = "text" placeholder="Enter Name " name="Uname" >
+ <br>
+ <input type = "password" placeholder="Enter Password  " name="Password" >
+ <br>
+ <input type ="submit" value ="SAVE">
+</form>
+<a href="/showall">Click Here ! </a>
+
+</body>
+</html>

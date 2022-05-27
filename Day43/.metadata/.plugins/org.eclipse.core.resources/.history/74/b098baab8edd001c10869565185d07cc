@@ -1,0 +1,20 @@
+<html>
+<head>
+<style>
+header {
+  background-color: #666;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+</style>
+</head>
+<body>
+<header>Welcome to Movie Page</header>
+<h1>User Name <h1>
+<br>
+ <p th:text="'UserName: ' + ${model}" />
+</body>
+</html>

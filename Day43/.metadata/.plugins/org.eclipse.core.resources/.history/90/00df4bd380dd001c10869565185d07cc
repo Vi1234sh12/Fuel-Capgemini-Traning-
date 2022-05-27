@@ -1,0 +1,37 @@
+package com.example.WebDemo;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.ModelAttribute;
+import org.springframework.web.bind.annotation.PostMapping;
+
+@Controller
+public class UserController {
+	
+	@PostMapping("/")
+	public String RegisterUser( )
+	{
+		return "index";
+	}
+	
+	@GetMapping("/mainpage")
+	public String mainpage() {
+		
+		
+		return "main";
+	}
+	
+	@GetMapping("/moviepage")
+	public String moviepage()
+	{
+		return "movie";
+	}
+	
+	@GetMapping("/sportpage")
+	public String sportpage()
+	{
+		return "sport";
+	}
+	
+
+}

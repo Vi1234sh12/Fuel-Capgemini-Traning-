@@ -1,0 +1,8 @@
+package com.example.LoginPage;
+
+import org.springframework.stereotype.Controller;
+
+@Controllerl
+public class Mycontroller {
+
+}

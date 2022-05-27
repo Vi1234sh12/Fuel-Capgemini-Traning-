@@ -1,0 +1,8 @@
+<html>
+<head>
+</head>
+<body>
+<h1> Welcome to Sport Page </h1>
+<p th:text="'UserName: ' + ${fname}" />
+</body>
+</html>

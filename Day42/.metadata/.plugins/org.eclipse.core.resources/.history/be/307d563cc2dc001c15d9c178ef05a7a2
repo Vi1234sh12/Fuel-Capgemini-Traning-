@@ -1,0 +1,44 @@
+package com.example.logindemo;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.ModelAttribute;
+import org.springframework.web.bind.annotation.PostMapping;
+//import org.springframework.web.bind.annotation.PostMapping;
+
+@Controller
+public class MyController {
+	
+	@Autowired
+  StudentRepository studrepo;
+	
+	// go to the register
+	@GetMapping("/createuser")
+	public String CraeteUser(@ModelAttribute Student create)
+	{
+		
+		studrepo.save(create);
+		return "create";
+		
+	}
+	
+	// register page 
+	
+	@PostMapping("/loginuser")
+	public String LoignUser(@ModelAttribute Student student)
+	{
+	
+		studrepo.save(student);
+		return "index";
+		
+	}
+	
+	@PostMapping("/check")
+	public String loginstudent(@ModelAttribute Student stud)
+	{
+		return path;
+	}
+	
+}
+

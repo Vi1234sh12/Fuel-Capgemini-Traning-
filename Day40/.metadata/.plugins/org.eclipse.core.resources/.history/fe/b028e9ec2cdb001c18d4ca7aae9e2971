@@ -1,0 +1,13 @@
+
+<html lang="en" xmlns:th="https://www.thymeleaf.org">
+<head>
+<title>Signup result </title>
+</head>
+<body>
+
+<table border="1">
+<tr th:each="login : $(loginpage)"
+
+
+</body>
+</html>

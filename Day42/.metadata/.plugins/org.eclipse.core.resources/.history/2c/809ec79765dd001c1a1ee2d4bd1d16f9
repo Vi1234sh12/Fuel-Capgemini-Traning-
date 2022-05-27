@@ -1,0 +1,41 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>login Page</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+header {
+  background-color: #666;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+form {
+
+   text-align: center;
+   font-size: 35px;
+   color: white;
+
+}
+
+</style>
+</head>
+<body>
+<header> Welcome </header>
+<p>
+<b>1.Insert Operation </b>
+<br>
+<b>2.Search Operation </b>
+<br>
+<b>3.Delete Operation </b>
+<br>
+<b>4.Update Operation </b>
+<br>
+<b>5.Exit </b>
+</p>
+</body>
+</html>

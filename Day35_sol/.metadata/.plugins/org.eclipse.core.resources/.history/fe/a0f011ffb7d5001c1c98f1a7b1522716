@@ -1,0 +1,25 @@
+package com.example.webdemo;
+
+import org.springframework.stereotype.Component;
+
+@Component
+public class StudentDetails {
+	
+	private Student stud;
+	
+	void setData() {
+		
+		stud.setId(1001);
+		stud.setName("akash");
+	
+		
+		
+	}
+	
+	void showData()
+	{
+		System.out.println();
+		System.out.println();
+	}
+
+}

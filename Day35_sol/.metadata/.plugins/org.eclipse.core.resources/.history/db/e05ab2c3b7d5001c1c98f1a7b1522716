@@ -1,0 +1,8 @@
+package com.example.webdemo;
+
+import org.springframework.stereotype.Component;
+
+@Component
+public class StudentDetails {
+
+}

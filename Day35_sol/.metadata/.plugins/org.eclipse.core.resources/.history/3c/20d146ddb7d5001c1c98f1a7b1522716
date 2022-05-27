@@ -1,0 +1,9 @@
+package com.example.webdemo;
+
+
+import org.springframework.stereotype.Controller;
+
+@Controller
+public class Student {
+
+}
