@@ -12,7 +12,7 @@ public class Exercise {
         }
 
         for (int i = 1; i < size; i++) {
-            arr[i] = arr[i] * i;
+            arr[i] = arr[i] * arr[i];
         }
         System.out.println("Square root : ");
         for (int i = 1; i < size; i++) {
