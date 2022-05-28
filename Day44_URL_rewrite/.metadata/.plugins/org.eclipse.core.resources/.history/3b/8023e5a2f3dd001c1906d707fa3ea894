@@ -1,0 +1,9 @@
+<html>
+<head>
+</head>
+<body>
+<h1> Welcome to Movie Page </h1>
+<br>
+ <p th:text="'UserName: ' + ${fname}" />
+</body>
+</html>

@@ -1,0 +1,28 @@
+package com.example.WebapplicationDemo;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.GetMapping;
+
+@Controller
+public class UserController {
+	
+	@GetMapping("/")
+	public String gotoindex()
+	{
+		return "index";
+	}
+	
+	@GetMapping("/mainpage")
+	public String gotoMain()
+	{
+		return "main";
+	}
+	
+	
+	GetMapping("/welcome")
+	public String gotomovie()
+	{
+		return "movie";
+	}
+
+}
