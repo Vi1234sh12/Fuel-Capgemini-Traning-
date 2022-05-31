@@ -1,0 +1,10 @@
+package com.example.SpringSecurityOnlineShop;
+
+
+
+@Controller
+public class ProductController {
+	
+	
+	
+}

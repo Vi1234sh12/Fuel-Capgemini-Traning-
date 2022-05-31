@@ -1,0 +1,51 @@
+package com.example.SpringSecurityOnlineShop;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import javax.servlet.http.HttpSession;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.GetMapping;
+
+
+@Controller
+public class ShopController {
+	
+	
+	@GetMapping("/nextpage")
+	public String goToNext(HttpSession session)
+	{
+		Item it1 = new Item("A",100);
+		Item it2 = new Item("B",200);
+		Item it3 = new Item("C",300);
+		Item it4 = new Item("D",400);
+		Item it5 = new Item("E",500);
+		Item it6 = new Item("F",600);
+		
+		List<Item> dbitems = new ArrayList<>();
+		dbitems.add(it1);
+		dbitems.add(it2);
+		dbitems.add(it3);
+		dbitems.add(it4);
+		dbitems.add(it5);
+		dbitems.add(it6);
+		
+		session.setAttribute("iteminfo", dbitems);
+		
+		List<Item> items = new ArrayList<>();
+		session.setAttribute("cart", items);
+		
+		
+		return "index";
+	}
+	
+	
+	@GetMapping("/resultpage")
+	public String goToResult()
+	{
+		return "next";
+	}
+	
+
+}

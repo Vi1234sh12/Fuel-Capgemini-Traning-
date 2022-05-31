@@ -1,0 +1,63 @@
+<html>
+<head>
+<style>
+header {
+  background-color:#16A085;
+  padding: 30px;
+  text-align: center;
+  font-size: 55px;
+  color: white;
+}
+
+ .box{
+    width:500px;
+    height:350px;
+    padding:50px;
+    position:absolute; 
+    margin:5px 380px 85px;
+    background:#E5E7E9 ;
+    text-align:center;
+    border-radius:0px;
+}
+
+.box input[type="submit"]:hover{
+    
+    background:#2ecc71;
+    
+    
+}
+
+h1{
+    color:#138D75;
+    text-transform:uppercase;
+
+    font-weight:500;
+}
+
+input.largerCheckbox {
+            width: 35px;
+            height: 35px;
+            margin: 20px 45px;
+        }
+   
+
+
+</style>
+</head>
+<body>
+<header>SmartShop</header>
+<br>
+<form class="box" action="/nextpage" method="get">
+        <h1>Select Product </h1>
+        <input type = "checkbox" value="A" class="largerCheckbox" name="Product">A 
+        <br>
+        <input type = "checkbox" value="B" class="largerCheckbox" name="Product">B
+        <br>
+        <input type = "checkbox" value="C"class="largerCheckbox"  name="Product">C
+        <br> 
+        <input type="submit"  value="NextPage">
+        <br>
+        
+ </form>
+</body>
+</html>

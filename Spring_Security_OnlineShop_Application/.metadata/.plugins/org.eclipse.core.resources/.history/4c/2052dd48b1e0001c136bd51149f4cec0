@@ -1,0 +1,19 @@
+<html >
+<head>
+<style>
+header {
+  background-color:#16A085;
+  padding: 30px;
+  text-align: center;
+  font-size: 55px;
+  color: white;
+}
+</style>
+</head>
+<form method="get" action"/checkout">
+<header>SmartShop</header>
+<h1> 
+
+Total Cost : <input  type= text th:value=${total} />
+</form>
+</html>

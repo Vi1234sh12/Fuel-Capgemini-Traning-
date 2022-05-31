@@ -1,0 +1,19 @@
+<html >
+<head>
+<style>
+header {
+  background-color:#16A085;
+  padding: 20px;
+  text-align: center;
+  font-size: 55px;
+  color: white;
+}
+</style>
+</head>
+<form method="get" action"/checkout">
+<header>Checkout Total Cost </header>
+<br>
+Selected Item : <input  type= text th:value=${cart.name} />
+Total Cost : <input  type= text th:value=${total} />
+</form>
+</html>

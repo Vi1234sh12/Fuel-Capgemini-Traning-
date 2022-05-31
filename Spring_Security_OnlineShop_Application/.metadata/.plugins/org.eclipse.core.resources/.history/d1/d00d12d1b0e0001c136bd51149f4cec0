@@ -1,0 +1,15 @@
+<html >
+<head>
+<style>
+p {
+
+  font-size: 55px;
+  color: white;
+}
+</style>
+</head>
+<form method="get" action"/checkout">
+<input type="submit" value="checkout">
+<p th:value=${total} />
+</form>
+</html>

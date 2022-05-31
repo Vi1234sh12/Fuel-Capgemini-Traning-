@@ -1,0 +1,7 @@
+<html>
+<head>
+<form method="get" action"/checkout">
+<input type="submit" value="checkout">
+<p th:value=${total} />
+</form>
+</html>

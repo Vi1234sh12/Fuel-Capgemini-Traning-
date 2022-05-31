@@ -1,0 +1,30 @@
+<html >
+<head>
+<style>
+header {
+  background-color:#16A085;
+  padding: 20px;
+  text-align: center;
+  font-size: 55px;
+  color: white;
+}
+</style>
+</head>
+<form method="get" action"/checkout">
+<header>Checkout Total Cost </header>
+<br>
+Selected Item : <input  type= text th:value=${cart.item_name} />
+Total Cost : <input  type= text th:value=${total} />
+
+<table border="1">
+<tr th:each="login : ${loginpage}">
+
+<td th:text="${login.id}"></td>
+<td th:text="${login.Uname}"></td>
+<td th:text="${login.email_id}"></td>
+<td th:text="${login.Password}"></td>
+
+</tr>
+</table>
+</form>
+</html>

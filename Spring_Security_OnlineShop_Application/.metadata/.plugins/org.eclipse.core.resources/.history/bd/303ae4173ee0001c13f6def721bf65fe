@@ -1,0 +1,93 @@
+<html>
+
+<head>
+<meta charset="ISO-8859-1">
+    <title>List Users</title>
+    <link rel="stylesheet" type="text/css" href="/webjars/bootstrap/css/bootstrap.min.css" />
+    <script type="text/javascript" src="/webjars/jquery/jquery.min.js"></script>
+    <script type="text/javascript" src="/webjars/bootstrap/js/bootstrap.min.js"></script>
+    <style>
+        header {
+            background-color: #16A085;
+            padding: 30px;
+            text-align: center;
+            font-size: 55px;
+            color: white;
+        }
+
+        .box {
+            width: 500px;
+            height: 350px;
+            padding: 50px;
+            position: absolute;
+            margin: 5px 380px 85px;
+            background: #E5E7E9;
+            text-align: center;
+            border-radius: 0px;
+        }
+
+        .box input[type="submit"]:hover {
+
+            background: #2ecc71;
+
+
+        }
+
+        h1 {
+            color: #138D75;
+            text-transform: uppercase;
+
+            font-weight: 500;
+        }
+
+        input.largerCheckbox {
+            width: 35px;
+            height: 35px;
+            margin: 20px 45px;
+        }
+        
+        thead {
+        
+        background-color: #99A3A4;
+            font-size: 20px;
+            color: #138D75;
+            margin: 20px 30px 45px;
+        
+        }
+    </style>
+</head>
+
+<body>
+    <header>SmartShop</header>
+    <br>
+    <form class="box" action="" method="get">
+        <h1> Total Product Price </h1>
+       <div>
+        <table class="table table-striped table-bordered">
+            <thead>
+                <tr>
+                    <th>Product ID</th>
+                    <th>Product Name</th>
+                    <th>Details</th>
+                    <th>Price</th>
+                    <th>rate</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr th:each="products : ${products}">
+
+                    <td th:text="${products.id}"></td>
+                    <td th:text="${products.product_name}"></td>
+                    <td th:text="${products.product_details}"></td>
+                    <td th:text="${products.product_price}"></td>
+                    <td th:text="${products.product_rate}"></td>
+                </tr>
+            </tbody>
+        </table>
+        </div>
+
+
+    </form>
+</body>
+
+</html>

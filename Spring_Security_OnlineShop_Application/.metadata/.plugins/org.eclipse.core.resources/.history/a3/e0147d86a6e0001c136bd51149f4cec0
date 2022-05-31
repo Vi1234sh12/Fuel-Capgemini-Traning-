@@ -1,0 +1,8 @@
+package com.example.SpringSecurityOnlineShop;
+
+public class Item {
+	
+	private String item_name;
+	private int item_cost;
+
+}

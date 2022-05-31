@@ -1,0 +1,9 @@
+<html >
+<head>
+<form method="get" action"/checkout">
+<header>SmartShop</header>
+<h1> 
+
+Total Cost : <input  type= text th:value=${total} />
+</form>
+</html>

@@ -1,0 +1,6 @@
+<html>
+<head>
+<form method="get" action"/checkout">
+<input type="submit" value="checkout">
+</form>
+</html
